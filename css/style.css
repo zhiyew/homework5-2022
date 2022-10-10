@@ -41,24 +41,25 @@ a:visited {
     padding-bottom: 20px;
     padding-left: 0px;
     padding-right: 0px;
-    border-radius: 50px 50px 0px 0px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
  }
 
 .card {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex-basis: 450px;
     width: 450px;
-    border-radius: 50px 50px 0px 0px;
- }
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
 
 .pricing {
     display: flex;
     justify-content: center;
     justify-items: center;
-    align-items: center;
     align-content: center;
+    align-items: center;
     flex-direction: column;
  }
 
@@ -101,7 +102,7 @@ header {
 .card {
     display: flex;
     flex-direction: column;
-    flex-basis: 275px;
+    width: 275px;
  }
 
  body > header {
@@ -145,10 +146,10 @@ nav {
  }
 
 .card {
-    border-style: soild;
+    border-style: solid;
     border-color: #45ADDD;
     border-width: 2px;
-    flex-basis:325px;
+    flex-basis: 325px;
  }
 
 .gallery {
