@@ -41,8 +41,7 @@ a:visited {
     padding-bottom: 20px;
     padding-left: 0px;
     padding-right: 0px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-radius: 50px 50px 0px 0px;
  }
 
 .card {
@@ -50,8 +49,7 @@ a:visited {
     flex-wrap: wrap;
     flex-direction: column;
     width: 450px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-radius: 50px 50px 0px 0px;
 }
 
 .pricing {
